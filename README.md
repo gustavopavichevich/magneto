@@ -2,6 +2,11 @@
 
 #Objetivo del requerimiento:
 
+Magneto quiere reclutar la mayor cantidad de mutantes para poder luchar
+contra los X-Men.
+Te ha contratado a ti para que desarrolles un proyecto que detecte si un
+humano es mutante basándose en su secuencia de ADN.
+
 Para eso te ha pedido crear un programa con un metodo o funcion con la siguiente firma (En
 alguno de los siguiente lenguajes: Java / Golang / C-C++ / Javascript (node) / Python / Ruby):
 
@@ -47,5 +52,5 @@ https://mutant-app.herokuapp.com/stats
 Sin parametros de entrada. Podria haberse hecho mediante un metodo GET pero ya que el Sr Magneto no especifico como consultarlo lo hice POST para continuar con las consideraciones genericas del pedido. 
 Este ultimo servicio retorna un Json en el que figura la cantidad de ADNs analizados. Separados en los que fueron identificados como humanos y como mutantes. Adicionalmente, se muestra un "ratio" qeu es el porcentaje de ocurrencias de ADNs mutantes almacenadas contra todos los ingresos a la base de datos:
 {
-    "ADN": "{"count_human_dna":"10","count_mutant_dna":"5","ratio":0.5}"
+    "ADN": {“count_mutant_dna”:40, “count_human_dna”:100: “ratio”:0.4}
 }
