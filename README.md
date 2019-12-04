@@ -1,7 +1,7 @@
 *************************************************************************
-Autor: Gustavo Andres Pavichevich
-Usuario: Magneto
-referencia: gustavopavichevich@gmail.com
+*Autor: Gustavo Andres Pavichevich
+*Usuario: Magneto
+*Referencia: gustavopavichevich@gmail.com
 *************************************************************************
 ################################mutant - DISENO INTERNO####################################
 
