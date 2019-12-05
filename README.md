@@ -58,3 +58,4 @@ Este ultimo servicio retorna un Json en el que figura la cantidad de ADNs analiz
 {
     "ADN": "{"count_human_dna":"10","count_mutant_dna":"5","ratio":0.5}"
 }
+
