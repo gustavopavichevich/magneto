@@ -9,7 +9,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.google.gson.Gson;
@@ -17,15 +16,14 @@ import com.mutant.model.dao.IStatsDao;
 import com.mutant.model.entity.Data;
 
 @RestController
-@RequestMapping("/")
 @CrossOrigin(origins = { "*" })
 public class StatsRest {
 	
 
 	@Autowired
-	IStatsDao statsDao;
+	private IStatsDao statsDao;
 	
-	@Async
+//	@Async
 	@PostMapping(path = "/stats", produces = "application/json")
 	public ResponseEntity<?> obtenerPersonal() {
 
